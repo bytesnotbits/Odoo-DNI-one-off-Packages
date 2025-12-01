@@ -1,4 +1,7 @@
-#Automated Action
+# Automated Action
+# Model: 'DNI Package'
+# Trigger: 'On Save'
+# Actions To Do: 'Execute Code'
 
 for rec in records:
     # Get recipient name
