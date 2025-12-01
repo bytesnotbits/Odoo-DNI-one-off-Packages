@@ -1,6 +1,10 @@
 # Server Action
 # Model: 'DNI Package'
 # Type: 'Execute Code'
+# Dependencies:
+#     DNI Package "Mark Ready" button - (Server Action)
+#     Confirm Pickup for DNI Packages (inventory app) - (Server Action)
+#     DNI Package auto generate document ID - (Automation Rule)
 
 # Update status + delivered_by
 record.write({
