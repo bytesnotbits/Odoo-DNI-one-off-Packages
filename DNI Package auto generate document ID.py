@@ -2,6 +2,10 @@
 # Model: 'DNI Package'
 # Trigger: 'On Save'
 # Actions To Do: 'Execute Code'
+# Dependencies:
+#     DNI Package "Mark Ready" button - (Server Action)
+#     Confirm Pickup for DNI Packages (inventory app) - (Server Action)
+#     DNI Package auto generate document ID - (Automation Rule)
 
 for rec in records:
     # Get recipient name
